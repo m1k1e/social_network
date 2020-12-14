@@ -20,6 +20,8 @@ body {
 }
 
 .search {
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
     max-width: 336px;
     width: 100%;
 }
@@ -29,10 +31,18 @@ form {
 }
 
 .search-input {
+    background: #FFFFFF;
     border: none;
+    color: #BFBFBF;
+    font-size: 1.1rem;
     outline: none;
     padding: 5px 30px 5px 12px;
     width: 100%;
+}
+
+.search-input::placeholder {
+    color: #BFBFBF;
+    font-size: 1.1rem;
 }
 
 .search-input::-webkit-search-cancel-button {
