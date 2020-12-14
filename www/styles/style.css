@@ -5,3 +5,23 @@
 body {
     background-color: #E5E5E5;
 }
+
+.header {
+    background-color: #0050B3;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.search{
+
+}
+
+.navigation {
+
+}
