@@ -8,9 +8,9 @@ body {
 
 .header {
     background-color: #0050B3;
-    width: 1440px;
     margin: 0 auto;
     padding: 8px 0;
+    width: 1440px;
 }
 
 .container {
@@ -18,8 +18,40 @@ body {
     margin: 0 auto;
 }
 
-.search{
+.search {
+    max-width: 336px;
+    width: 100%;
+}
 
+form {
+    position: relative;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 5px 30px 5px 12px;
+    width: 100%;
+}
+
+.search-input::-webkit-search-cancel-button {
+    -webkit-appearance:none;
+}
+
+.search-input::-ms-clear {
+    display: none;
+}
+
+.button {
+    cursor: pointer;
+    background: url('../images/search.svg') no-repeat center;
+    border: none;
+    outline: none;
+    height: 30px;
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 30px;
 }
 
 .navigation {
