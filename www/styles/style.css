@@ -97,13 +97,15 @@ form {
 }
 
 .nav-header-panel {
+    display: flex;
+    align-items: center;
     margin: 0 12px;
 }
 
-.nav-header-panel ul {
+.nav-header-panel .nav-text-menu,
+.nav-header-panel .nav-icon-menu {
     display: flex;
     align-items: center;
-    text-align: middle;
     margin: 0;
     padding: 0 2px;
 }
@@ -114,14 +116,42 @@ form {
     position: relative;
 }
 
-.nav-header-panel li::before {
+
+.nav-text-menu li::before,
+.nav-text-menu li:last-child::before {
     content: '';
     background-color: #003A8C;
-    display: block;
+    display: inline-block;
     height: 16px;
-    position: absolute;
     left: 0;
-    bottom: 20%;
+    margin-right: 12px;
+    position: absolute;
+    bottom: 10%;
+    width: 1px;   
+}
+
+.nav-text-menu li:last-child::after {
+    content: '';
+    background-color: #003A8C;
+    display: inline-block;
+    height: 16px;
+    right: 0;
+    margin-left: 12px;
+    position: absolute;
+    bottom: 10%;
+    width: 1px;   
+}
+
+.nav-icon-menu li:last-child::before {
+    content: '';
+    background-color: #003A8C;
+    display: inline-block;
+    height: 16px;
+    left: 0;
+    margin-right: 12px;
+    position: absolute;
+    text-align: middle;
+    bottom: 27%;
     width: 1px;   
 }
 
@@ -137,6 +167,10 @@ form {
     opacity: 0.5;
     fill: #1520A6;
 }
+
+.nav-text-menu span {
+   padding-bottom: 10px; 
+} 
 
 .nav-header-panel svg{
     fill: #002766;
