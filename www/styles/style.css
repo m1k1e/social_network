@@ -96,31 +96,53 @@ form {
     
 }
 
-.navigation-panel {
+.nav-header-panel {
     margin: 0 12px;
 }
 
-ul {
+.nav-header-panel ul {
     display: flex;
     align-items: center;
+    text-align: middle;
     margin: 0;
     padding: 0 2px;
 }
 
-li {
-    border-right: 1px solid #003A8C;
+.nav-header-panel li {
     list-style: none;
     padding: 0 12px;
+    position: relative;
 }
 
-li:first-child {
-    border-left: 1px solid #003A8C;
+.nav-header-panel li::before {
+    content: '';
+    background-color: #003A8C;
+    display: block;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    width: 1px;   
 }
 
-li a {
+.nav-header-panel li a {
     color: #fff;
     font-size: 0.8rem;
     line-height: 1.5rem;
     text-decoration: none;
-    
+
+}
+
+.nav-header-panel li a:hover {
+    opacity: 0.5;
+    fill: #1520A6;
+}
+
+.nav-header-panel svg{
+    fill: #002766;
+    margin-top: 10px;
+}
+
+.nav-header-panel .active {
+    fill: #fff;
 }
