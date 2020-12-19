@@ -5,6 +5,8 @@
 body {
     background-color: #E5E5E5;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
 }
 
 /*header styles*/
@@ -224,4 +226,13 @@ form {
     height: 100%;
     min-width: 192px;
     padding: 12px;
+}
+
+.user_left_menu {
+    display: flex;
+    align-items: center;
+}
+
+.user_name {
+    margin-left: 8px;
 }
