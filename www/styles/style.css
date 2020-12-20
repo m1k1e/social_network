@@ -328,3 +328,16 @@ form {
     bottom: -8px;
     left: -16px;
 }
+
+.create_post_main {
+    display: flex;
+    align-items: center;
+    max-height: 96px;
+    padding: 16px;
+    overflow: hidden;
+}
+
+.create_post_header_new_post {
+    margin-left: 16px;
+    max-width: 500px;
+}
