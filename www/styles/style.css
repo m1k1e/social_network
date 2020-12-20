@@ -218,21 +218,80 @@ form {
 }
 
 .left_menu {
-    background: #FFFFFF;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    background: #E5E5E5;
     display: flex;
     flex-direction: column;
     height: 100%;
-    min-width: 192px;
-    padding: 12px;
+    max-height: 500px;
+    max-width: 192px;
+    width: 100%;
+    /*padding: 12px;*/
 }
 
 .user_left_menu {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .user_name {
     margin-left: 8px;
+}
+
+.nav_group  {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0 0 20px;
+    padding-left: 0;
+}
+
+.nav_group li {
+   
+}
+
+.nav_group li:hover:not(.active-menu) {
+    color: #000;
+    font-weight: 700;
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+.nav_group .active-menu {
+    
+    background: url('../images/three_dots.png') no-repeat 95% 50%, #fff;
+    border-radius: 4px;
+    font-weight: 900;
+    color: #000;
+}
+
+.nav_group_btn {
+    display: flex;
+    align-items: center;
+    color: #595959;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+
+.active-menu .nav_group_btn {
+    
+}
+    
+
+.nav_group .nav_group_text {
+    margin-left: 8px;
+}
+
+.caption_menu {
+    color: #262626;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.nav_group .nav_group_blue_text {
+    color: #1890ff;
+    margin-left: 10px;
 }
