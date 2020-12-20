@@ -316,6 +316,7 @@ form {
 .create_post_header {
     color: #595959;
     background: #F5F5F5;
+    font-weight: 700;
     padding: 8px 16px;
 }
 
@@ -339,6 +340,53 @@ form {
 }
 
 .create_post_header_new_post {
+    color: #8C8C8C;
+    font-size: 1rem;
     margin-left: 16px;
     max-width: 500px;
+}
+
+.create_post_footer {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro', 'Arial Bold', sans-serif;
+    padding: 16px;
+    position: relative;
+}
+
+.create_post_footer_btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 48px;
+    color: #5F5F5F;
+    margin-right: 8px;
+    padding: 8px 12px;
+}
+
+.create_post_footer_btn:last-child {
+    justify-content: center;
+    height: 40px;
+    width: 48px;
+}
+
+.create_post_footer_btn:hover {
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+}
+
+.create_post_footer::before {
+    content: '';
+    border-top: 1px solid #d9d9d9;
+    display: block;
+    width: 556px;
+    position: absolute;
+    top: 0;
+    left: auto;   
+}
+
+.create_post_footer_btn_text {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 8px;
 }
