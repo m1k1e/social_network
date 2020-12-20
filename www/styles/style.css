@@ -333,6 +333,7 @@ form {
     display: flex;
     align-items: center;
     max-height: 96px;
+    margin-bottom:  24px;  
     padding: 16px;
     overflow: hidden;
 }
