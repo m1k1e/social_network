@@ -213,9 +213,10 @@ form {
 /*main block styles*/
 .main-flex-container {
     display: flex;
-    justify-content: space-between;
     margin-top: 16px;
 }
+
+/*Left sidebar menu*/
 
 .left_menu {
     background: #E5E5E5;
@@ -293,4 +294,21 @@ form {
 .nav_group .nav_group_blue_text {
     color: #1890ff;
     margin-left: 10px;
+}
+
+/*Main feed block*/
+.main_feed {
+    margin: 0 20px 0 20px;
+}
+
+.create_post {
+    background:#FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    height: 192px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    width: 588px;
 }
