@@ -272,9 +272,6 @@ form {
     padding: 5px;
     text-decoration: none;
     
-<<<<<<< HEAD
-    
-=======
 }
 
 .active-menu .nav_group_btn {
@@ -392,5 +389,4 @@ form {
 .create_post_footer_btn_text {
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 8px;
->>>>>>> develop
 }
