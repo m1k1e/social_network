@@ -301,13 +301,14 @@ form {
     margin: 0 20px 0 20px;
 }
 
-.create_post {
+.create_post,
+.first_post {
     background:#FFFFFF;
     border-radius: 4px;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     display: flex;
     flex-direction: column;
-    height: 192px;
+    max-height: 571px;
     margin-bottom: 16px;
     overflow: hidden;
     width: 588px;
@@ -390,3 +391,52 @@ form {
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 8px;
 }
+
+/*First post block*/
+ .first_post {
+     padding: 16px;
+ }
+
+ .user_info_block {
+     display: flex;
+     position: relative;
+ }
+
+ .user_avatar {
+     margin-right: 12px;
+ }
+
+ .user_info {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .user_info .user_name {
+     color: #0050B3;
+     margin-left: 0;
+     margin-right: 6px;
+ }
+
+ .user_post_settings {
+    align-items: center;
+    color: #8C8C8C;
+    display: flex;
+    height: 100%;
+ }
+
+ .user_post_time_counter,
+ .user_post_settings_devider {
+     margin-right: 6px;
+ }
+
+ .user_post_settings_btn {
+     align-self: center;
+     padding-top: 4px;
+ }
+
+
+ .block_settings {
+    position: absolute;
+    right: 0;
+    top: 0;
+ }
